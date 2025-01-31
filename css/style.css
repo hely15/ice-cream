@@ -6,6 +6,7 @@
 }
 body{
     background-color: var(--color-8);
+    
 }
 header{
     /**background: red; **/
@@ -59,6 +60,7 @@ main{
 .section__container{
     display: flex;
     justify-content: space-between;
+    margin-top: 111px;
 }
 .article__jumping{
     width: 679px;
@@ -70,16 +72,97 @@ main{
     color: var(--color-1);
     font-family: "Poppins-semi-bold";
     font-size: 120px;
-    line-height: 110px;
+    line-height: 91.4%;
 }
-.section__jumping p{
-
+.article__jumping p{
+    margin-top: 26px;
+    font-family: "Poppins-Medium";
+    font-size: 24px;
+    color: var(--color-6);
+    line-height: 123%;
 }
 .div__buttons{
+    margin-top: 26px;
     background: purple;
     display: flex;
+    gap: 38px;
 
 }
 .div__buttons a{
+    width: 264px;
+    height: 86px;
+    border-radius:14px;
+    outline: 1px solid var(--color-1);
+    background: transparent;
+    font-family: "Poppins-thin";
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.div__buttons a:hover{
+    outline: none;
+}
+
+
+
+
+
+.article__reviews {
+    background: red;
+    padding: 20px;
+}
+.div__reviews-container {
+    width: 345px;
+    height: 202px;
+    background: var(--color-1);
+    border-radius: 18px;
+    padding: 20px;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+}
+.div__reviews-cards {
+    /* background: green; */
+    /* padding: 20px; */
+}
+.div__reviews-profile {
+    /* background: violet; */
+    /* padding: 20px; */
+    gap: 16px;
+    display: flex;
+}
+.div__reviews-profile img{
+    /* background: orange; */
+    /* padding: 20px; */
+    object-fit: cover;
+}
+.div__reviews-cards p{
+    font-family: "Poppins-Medium";
+    text-align: justify;
+    margin-top: 12px;
+    font-size: 18px;
+    color: var(--color-7);
+    width: 277px;
+}
+.div__reviews-rating {
+    /* background: yellow; */
+    /* padding: 20px; */
+}
+.div__reviews-rating h3{
+    color: var(--color-2);
+    font-family: "Poppins-Medium";
+    font-size: 28px;
+}
+.div__reviews-stars {
+    /* background: olive; */
+    /* padding: 20px; */
+}
+.div__reviews-stars img{
+    /* background: turquoise; */
 }
