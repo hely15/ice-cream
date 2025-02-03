@@ -299,3 +299,52 @@ main{
 .div__choose-type-buttons a:hover{
 
 }
+
+
+.section__container-products {
+    background: red;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.div__trendy {
+    background: violet;
+}
+.div__trendy h2{
+}
+.div__trendy img{
+}
+.article__products{
+    background: green;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 52px;
+    flex-wrap: wrap;
+
+}
+.form__container-product{
+    background: orange;
+    width: 690px;
+    height: 324px;
+    
+}
+.div__container-product img{
+}
+.div__product {
+    background: turquoise;
+}
+.div__product h3{
+}
+.div__product label{
+}
+.div__type-order{
+    background: yellow;
+}
+.div__type-order input[type="submit"]{
+}
+.div__product-amount {
+    background: olive;
+}
+.div__amount input[type="number"]{
+}
